@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { ExampleComponent } from "./components/ExampleComponent";
 
 function App() {

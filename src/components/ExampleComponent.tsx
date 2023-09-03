@@ -10,10 +10,10 @@ export const ExampleComponent: React.FunctionComponent = () => {
   }, []);
 
   return (
-    <>
-      {examples.map((example) => {
-        <div key={example.id}>{example.header}</div>;
-      })}
-    </>
+    <div>
+      {examples.map((example) => (
+        <div key={example.id}>{example.header}</div>
+      ))}
+    </div>
   );
 };

@@ -1,0 +1,35 @@
+name: Build
+on:
+  push:
+    branches:
+      - "master"
+
+concurrency:
+  group: ci-tests-${{ github.ref }}-1
+  cancel-in-progress: true
+
+jobs:
+  test:
+    permissions:
+      contents: read
+    uses: ./.github/workflows/test.yml
+
+  bump-version:
+    needs: [test]
+    name: bump version
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Automated Version Bump
+        id: version-bump
+        uses: phips28/gh-action-bump-version@master
+        with:
+          major-wording: "BREAKING CHANGE,major"
+          minor-wording: "feat"
+          patch-wording: "patch,fix,fixes,chore,ci"
+          skip-tag: "true"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
