@@ -32,7 +32,7 @@
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.0",
     "cypress": "^13.6.0",
-    "jsdom": "^23.0.0",
+    "jsdom": "^23.0.1",
     "miragejs": "^0.1.48",
     "prettier": "^3.1.0",
     "start-server-and-test": "^2.0.3",
