@@ -34,7 +34,7 @@
     "cypress": "^13.6.1",
     "jsdom": "^23.0.1",
     "miragejs": "^0.1.48",
-    "prettier": "^3.1.0",
+    "prettier": "^3.1.1",
     "start-server-and-test": "^2.0.3",
     "typescript": "^5.3.3",
     "vite": "^5.0.6",
