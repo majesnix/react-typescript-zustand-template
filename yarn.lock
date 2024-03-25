@@ -2334,10 +2334,10 @@ jsprim@^2.0.2:
     json-schema "0.4.0"
     verror "1.10.0"
 
-ky@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/ky/-/ky-1.2.2.tgz#875b4132012ff7d8c12e5e884f35015676c436d2"
-  integrity sha512-gYA2QOI3uIaImJPJjaBbLCdvKHzwxsuB03s7PjrXmoO6tcn6k53rwYoSRgqrmVsEV6wFFegOXDVjABxFZ0aRSg==
+ky@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/ky/-/ky-1.2.3.tgz#4e410c7f55b400d1d0bdceaf588a4765aa362946"
+  integrity sha512-2IM3VssHfG2zYz2FsHRUqIp8chhLc9uxDMcK2THxgFfv8pQhnMfN8L0ul+iW4RdBl5AglF8ooPIflRm3yNH0IA==
 
 lazy-ass@1.6.0, lazy-ass@^1.6.0:
   version "1.6.0"
