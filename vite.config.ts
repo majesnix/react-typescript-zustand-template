@@ -8,4 +8,11 @@ export default defineConfig({
     target: "esnext",
     chunkSizeWarningLimit: 1000,
   },
+  server: {
+    host: "0.0.0.0",
+  },
+  preview: {
+    host: "0.0.0.0",
+    port: 5173,
+  },
 });
