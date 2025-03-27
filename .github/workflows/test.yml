@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Install Playwright Browsers
-        run: yarn create playwright install --with-deps --quiet
+        run: npx playwright install --with-deps --quiet
       - name: Run Playwright tests
         run: yarn e2e
       - uses: actions/upload-artifact@v4
