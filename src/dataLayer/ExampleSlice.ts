@@ -16,7 +16,7 @@ export const createExampleSlice: StateCreator<
   [],
   [],
   ExampleStore
-> = (set, get) => ({
+> = (set) => ({
   examples: [],
   getExamples: async () => {
     const examples = await getExamples();
