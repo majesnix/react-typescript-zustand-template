@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "test": "vitest",
     "e2e:run:playwright": "playwright test",
-    "e2e": "start-server-and-test start localhost:5173 e2e:run:playwright"
+    "e2e:ci": "start-server-and-test start localhost:5173 e2e:run:playwright",
+    "e2e:local": "playwright test --ui",
+    "e2e": "start-server-and-test start localhost:5173 e2e:local"
   },
   "dependencies": {
     "ky": "^1.7.5",

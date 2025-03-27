@@ -7,6 +7,7 @@ export const ExampleComponent: React.FunctionComponent = () => {
 
   useEffect(() => {
     getExamples();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
