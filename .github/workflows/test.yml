@@ -34,7 +34,7 @@ jobs:
       - name: Install Playwright Browsers
         run: yarn create playwright install --with-deps
       - name: Run Playwright tests
-        run: yarn create playwright test
+        run: yarn e2e
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:

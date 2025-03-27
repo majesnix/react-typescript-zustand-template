@@ -6,7 +6,7 @@ import { makeServer } from "../src/mock/mock.server"
 test.describe("init spec", () => {
   let server: Server;
 
-  test.beforeEach(async ({ page }) => {
+  test.beforeEach(async () => {
     server = makeServer("test");
   });
 
