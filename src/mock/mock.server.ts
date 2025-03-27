@@ -10,6 +10,7 @@ export type AppRegistry = Registry<
   {
     example: typeof ExampleModel;
   },
+  // eslint-disable-next-line @typescript-eslint/no-empty-object-type
   {}
 >;
 
@@ -31,10 +32,7 @@ export const makeServer = (environment: string = "development") => {
       example: ExampleModel,
     },
     seeds(server) {
-      //@ts-ignore
-      if (!window.Cypress) {
-        server.create("example", { id: "1", header: "init" });
-      }
+      server.create("example", { id: "1", header: "init" });
     },
     routes() {
       this.get("/examples", (schema: AppSchema, req: any) => {
