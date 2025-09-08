@@ -2153,10 +2153,10 @@ keyv@^4.5.4:
   dependencies:
     json-buffer "3.0.1"
 
-ky@^1.9.1:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/ky/-/ky-1.9.1.tgz#310c948a7a560a03c1a545769c7a1ffcaa25b6a3"
-  integrity sha512-WGzpBn57klhxsqRTEABAqF4tqTtqCuxoTIv9m6nIZtMMFTVcrHp7bRDWblzFIfqkb47+OhTztOgHn6A4xItmqg==
+ky@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/ky/-/ky-1.10.0.tgz#d3b9dc24d723a28cfd0a3254f177d28faa5f961e"
+  integrity sha512-YRPCzHEWZffbfvmRrfwa+5nwBHwZuYiTrfDX0wuhGBPV0pA/zCqcOq93MDssON/baIkpYbvehIX5aLpMxrRhaA==
 
 lazy-ass@1.6.0:
   version "1.6.0"
