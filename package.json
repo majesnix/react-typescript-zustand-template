@@ -36,7 +36,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.4.0",
-    "jsdom": "^27.0.0",
+    "jsdom": "^27.0.1",
     "miragejs": "^0.1.48",
     "prettier": "^3.6.2",
     "start-server-and-test": "^2.1.2",
