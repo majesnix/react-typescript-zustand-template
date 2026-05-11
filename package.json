@@ -42,7 +42,7 @@
     "jsdom": "^29.1.1",
     "miragejs": "^0.1.48",
     "prettier": "^3.8.3",
-    "start-server-and-test": "^3.0.2",
+    "start-server-and-test": "^3.0.4",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.59.2",
     "vite": "^8.0.11",
