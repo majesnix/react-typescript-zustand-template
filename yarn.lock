@@ -1024,6 +1024,11 @@ convert-source-map@^2.0.0:
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-2.0.0.tgz#4b560f649fc4e918dd0ab75cf4961e8bc882d82a"
   integrity sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==
 
+cookie-es@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/cookie-es/-/cookie-es-3.1.1.tgz#c4a8a16cf88cb5a185b23f4a61d6e9a85eb53287"
+  integrity sha512-UaXxwISYJPTr9hwQxMFYZ7kNhSXboMXP+Z3TRX6f1/NyaGPfuNUZOWP1pUEb75B2HjfklIYLVRfWiFZJyC6Npg==
+
 cookie@^1.0.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-1.1.1.tgz#3bb9bdfc82369db9c2f69c93c9c3ceb310c88b3c"
@@ -2071,13 +2076,20 @@ react-router-dom@^7.18.0:
   dependencies:
     react-router "7.18.0"
 
-react-router@7.18.0, react-router@^7.18.0:
+react-router@7.18.0:
   version "7.18.0"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-7.18.0.tgz#e7d94b54745277aabe3cf93fac938cbebc9c1c5e"
   integrity sha512-pTTGt8J+ji1NOmYnjzT+bAJy/1zD+Jp4ziO6cL7T3ZLvXKtusO7BpFqlRXitqpcPVqllsIXFHRMt+2/k3Xn6HQ==
   dependencies:
     cookie "^1.0.1"
     set-cookie-parser "^2.6.0"
+
+react-router@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-8.0.0.tgz#d61bf1733900ee8332a65452071eb60de64885e3"
+  integrity sha512-AyS7LUn9M3g2/IBJDJNpWqElaQjPVBHGgMsdLGee6B2JLwP9STSpRwN8N4SauOeFTb0X5ZN0wxa1Iek78jF8Iw==
+  dependencies:
+    cookie-es "^3.1.1"
 
 react@^19.2.7:
   version "19.2.7"
