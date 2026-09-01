@@ -17,7 +17,7 @@
     "e2e": "start-server-and-test start localhost:5173 e2e:local"
   },
   "dependencies": {
-    "ky": "^2.0.2",
+    "ky": "^2.1.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-router": "^8.3.0",
